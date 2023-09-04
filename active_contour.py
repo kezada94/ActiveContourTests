@@ -23,7 +23,7 @@ k = np.arange(230, 250, 1)
 print(k)
 kernel = np.ones((5, 5), dtype=np.uint8)
 size = 3
-structuring_element = np.ones((size, size), dtype=np.uint8)
+structuring_element = np.ones((size, size), dtype=np.uint8)*255
 structuring_element[size//2, size//2] = 0
 size = 3
 neighborhood = np.ones((size, size), dtype=np.uint8)
