@@ -30,4 +30,4 @@ def play_video_backward(video_path):
     video.release()
     cv2.destroyAllWindows()
 
-play_video_backward("facil.mp4")
+play_video_backward("vidd.mp4")
